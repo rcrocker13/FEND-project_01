@@ -1,0 +1,67 @@
+.container {
+	position: relative;
+	width: 80%;
+}
+
+.col-lg-9 {
+	margin-right: 0px;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 960px;
+}
+
+button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.portfolio {
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+h1 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #BCBBBB;
+}
+
+h2 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #BCBBBB;
+}
+
+h3 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #BCBBBB;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif;=
+}
+
+h5 {
+	font-family: 'Lato', sans-serif;=
+}
+
+hr {
+	border-width: 2px;
+}
+
+.logo {
+	margin-top: 20px;
+}
+
+a {
+	color: #ccc;
+	font-weight: 800;
+}
