@@ -1,0 +1,64 @@
+h1, h2, h3 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #BCBBBB;
+}
+
+h4, h5 {
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+	width: 80%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	margin: auto;
+}
+
+.chart {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+/*button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}*/
+
+a {
+	color: #ccc;
+	font-weight: 800;
+}
+
+@media screen and (max-width: 700px) {
+	/*javascript function*/
+	#steamGraphNarrow {
+		display: flex;
+		justify-content: space-between;
+		max-width: 90%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	#steamGraphWide {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 699px) {
+	/*javascript function*/
+	#steamGraphWide {
+		max-width: 90%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	#steamGraphNarrow {
+		display: none;
+	}
+}
