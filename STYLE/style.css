@@ -1,9 +1,23 @@
-h1, h2, h3 {
+h1 {
 	font-family: 'Julius Sans One', sans-serif;
-	color: #BCBBBB;
+	color: #bcbbbb;
+}
+
+h2 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #bcbbbb;
+}
+
+h3 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #bcbbbb;
 }
 
 h4, h5 {
+	font-family: 'Lato', sans-serif;
+}
+
+h5 {
 	font-family: 'Lato', sans-serif;
 }
 
