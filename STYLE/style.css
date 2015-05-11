@@ -40,39 +40,19 @@ h5 {
 	align-items: flex-end;
 }
 
-/*button {
+button {
   position: absolute;
   right: 10px;
   top: 10px;
-}*/
+}
 
 a {
 	color: #ccc;
 	font-weight: 800;
 }
 
-@media screen and (max-width: 700px) {
-	/*javascript function*/
-	#steamGraphNarrow {
-		display: flex;
-		justify-content: space-between;
-		max-width: 90%;
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-	#steamGraphWide {
-		display: none;
-	}
-}
-
-@media screen and (min-width: 699px) {
-	/*javascript function*/
-	#steamGraphWide {
-		max-width: 90%;
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-	#steamGraphNarrow {
-		display: none;
-	}
+#steamGraph {
+	max-width: 90%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
